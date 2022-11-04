@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 0.1px);
+    background-color: hsl(217, 54%, 11%);
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    height: 480px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+
+.etherium__picture img{
+    border-radius: 1rem;
+}
+
+
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+.summary span:nth-child(1){
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.summary span:nth-child(1) img{
+    margin-right: 0.4rem;
+}
+
+.summary span:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+
+.summary span:nth-child(2) img{
+    margin-right: 0.4rem;
+}
+
+
+
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+p{
+    
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 0.7rem 0;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+    opacity: 0.1;
+    margin: 1rem 0;
+}
+
+
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.avatar img{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.avatar span{
+    font-size: 0.9rem;
+}
+
+.avatar span b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
